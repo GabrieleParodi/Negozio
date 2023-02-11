@@ -7,5 +7,14 @@ public abstract class Oggetti {
     public Oggetti(){
 
     }
-
+    public Oggetti(double peso, double costo){
+        this.peso = peso;
+        this.costo = costo;
+    }
+    public double getPeso(){
+        return peso;
+    }
+    public double getCosto(){
+        return costo;
+    }
 }
