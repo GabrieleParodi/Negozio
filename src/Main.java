@@ -33,7 +33,7 @@ public class Main {
         RacchettaDaPadel r3 = new RacchettaDaPadel(5.2, 90, "Amazonbasics", t3);
         amazon.addObjInventario(r3);//aggiunge un nuovo prodotto
         System.out.println(amazon.libriFantasy());//numero libri categoria fantasy
-        List<Oggetti> goccia = amazon.racchetteGoccia();//crea ArrayList con dentro racchette da più di 100 euro e a forma di goccia
+        List<Oggetto> goccia = amazon.racchetteGoccia();//crea ArrayList con dentro racchette da più di 100 euro e a forma di goccia
         System.out.println(goccia.size());
 
     }

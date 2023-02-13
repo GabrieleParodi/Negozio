@@ -1,6 +1,6 @@
 package model;
 
-public class Dvd extends Oggetti{
+public class Dvd extends Oggetto {
     private String titolo;
     private String categoria;
     private double durata;

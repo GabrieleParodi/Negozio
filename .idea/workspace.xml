@@ -4,20 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b9cc407-2ac5-4da0-b6cd-141b5abba270" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Negozio.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Dvd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Libro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Negozio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Oggetti.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/RacchettaDaPadel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/TipoRacchetta.java" afterDir="false" />
+    <list default="true" id="1b9cc407-2ac5-4da0-b6cd-141b5abba270" name="Changes" comment="fix">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Dvd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Dvd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Libro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Libro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Negozio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Negozio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Oggetti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Oggetto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/RacchettaDaPadel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/RacchettaDaPadel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +37,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Dev/Java/Projects/OOExamples"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Dev/Java/Projects/Ex/Negozio&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,6 +53,18 @@
       <option name="presentableId" value="Default" />
       <updated>1676043423602</updated>
     </task>
+    <task id="LOCAL-00001" summary="fix">
+      <created>1676135715379</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676135715379</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
 </project>

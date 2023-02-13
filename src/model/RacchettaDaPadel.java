@@ -1,6 +1,6 @@
 package model;
 
-public class RacchettaDaPadel extends Oggetti{
+public class RacchettaDaPadel extends Oggetto {
     private String marca;
     private TipoRacchetta tipo;
 

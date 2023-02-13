@@ -3,35 +3,35 @@ package model;
 import java.util.ArrayList;
 
 public class Negozio {
-    private ArrayList<Oggetti> inventario;
+    private ArrayList<Oggetto> inventario;
 
     public Negozio(){
         this.inventario = new ArrayList<>();
     }
 
-    public void addObjInventario(Oggetti o){
+    public void addObjInventario(Oggetto o){
         inventario.add(o);
     }
-    public void rmvObjInventario(Oggetti o){
+    public void rmvObjInventario(Oggetto o){
         inventario.remove(o);
     }
     public int numeroProdotti(){
-        int count = 0;
-        for(Oggetti o : inventario){
-            count++;
-        }
-        return count;
+//        int count = 0;
+//        for(Oggetti o : inventario){
+//            count++;
+//        }
+        return inventario.size();
     }
     public double pesoTotale(){
         double pesoTot = 0;
-        for(Oggetti o : inventario){
+        for(Oggetto o : inventario){
             pesoTot += o.getPeso();
         }
         return pesoTot;
     }
     public double costoMaggiore(){
         double piuCostoso = 0;
-        for(Oggetti o : inventario){
+        for(Oggetto o : inventario){
             if(o.getCosto() > piuCostoso){
                 piuCostoso = o.getCosto();
             }
@@ -49,8 +49,8 @@ public class Negozio {
         }
         return count;
     }
-    public ArrayList<Oggetti> racchetteGoccia(){
-        ArrayList<Oggetti> rackGoccia = new ArrayList<>();
+    public ArrayList<Oggetto> racchetteGoccia(){
+        ArrayList<Oggetto> rackGoccia = new ArrayList<>();
         for(int i = 0; i < inventario.size(); i++){
             if(inventario.get(i) instanceof RacchettaDaPadel){
                 if(((RacchettaDaPadel)inventario.get(i)).getCosto() > 100 && ((RacchettaDaPadel)inventario.get(i)).getTipo().getType().equalsIgnoreCase("A Goccia")){

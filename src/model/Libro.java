@@ -1,6 +1,6 @@
 package model;
 
-public class Libro extends Oggetti{
+public class Libro extends Oggetto {
     private String isbn;
     private String titolo;
     private String categoria;
