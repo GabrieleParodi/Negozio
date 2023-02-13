@@ -1,13 +1,13 @@
 package model;
 
-public abstract class Oggetti {
+public abstract class Oggetto {
     protected double peso;
     protected double costo;
 
-    public Oggetti(){
+    public Oggetto(){
 
     }
-    public Oggetti(double peso, double costo){
+    public Oggetto(double peso, double costo){
         this.peso = peso;
         this.costo = costo;
     }
